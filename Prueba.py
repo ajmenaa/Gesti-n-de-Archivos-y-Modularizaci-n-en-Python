@@ -29,6 +29,5 @@ while linea:
     print(linea)
     
 archivo = open 
-
 archivo = open("archivo.txt", "r")  # "r" indica modo lectura
 

@@ -12,7 +12,9 @@ sin necesidad de acceder a los módulos individuales.
 # __init__.py dentro del paquete analisis_datos
 
 # Importamos las funciones 'media' y 'mediana' desde el módulo 'estadisticas' ubicado en el mismo paquete.
+
 from .estadisticas import media,calcular_mediana
+
 from .carga_datos import generar_lista_de_compras
 
 

@@ -12,7 +12,6 @@ def media(datos):
     return sum(datos) / len(datos)
 
 def calcular_mediana(datos):
-
     datos_sorted = sorted(datos)
     n = len(datos)
     mid = n // 2
